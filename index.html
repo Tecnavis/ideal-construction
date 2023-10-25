@@ -157,6 +157,7 @@
   <div class="service-2 h-100" data-toggle="modal" data-target="#civilConstructionModal">
 
               <div class="svg">
+
                 <img src="images/flaticon/svg/interior-design.png" alt="Image" class="">
                
               </div></a>
@@ -256,6 +257,7 @@
       <div class="modal-body">
         <p>Both carpentry and floor contracting are considered to be an art rather than a mere service.</p>
       </div> -->
+      <button type="button" class="btn btn-secondary" id="backButton">Back</button>
       <iframe src="Ideal Brochure A3-1.pdf" frameborder="10" style="height:80%;width: 80%;"></iframe>
     </div>
   </div>
@@ -263,7 +265,11 @@
 
 <!-- Repeat similar modal structure for other services with unique IDs -->
 
-
+<script>
+  document.getElementById('backButton').addEventListener('click', function() {
+    window.history.back();
+  });
+</script>
     <div class="site-section">
       <div class="container">
         
